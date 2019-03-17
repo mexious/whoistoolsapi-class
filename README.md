@@ -1,7 +1,7 @@
 # WhoisTools PHP Library
 PHP library to query WhoisTools API service.
 
-WhoisTools Menggunakan Sistem RestFull API dengan result JSON. Untuk Authentikasi akun, bisa dengan API Key yang dapat anda lihat di dashboard Utama. 
+WhoisTools Menggunakan Sistem RestFull API dengan result JSON. Untuk Authentikasi akun, bisa dengan API Key yang dapat anda lihat di <a href='//whoistools.web.id/dashboard'>dashboard area</a>. 
 
 ## How To
 Anda dapat memanggil file <code>whoistools.class.php</code> pada code anda, dan lakukan pemanggilan perintah dengan cara :
@@ -22,4 +22,3 @@ Jika anda mendapatkan problem dalam menjalankan library, hubungi whoistools@dev.
 ## License
 PHP Library ini menggunakan lisensi GNU General Public License v2 (or later)
 
-?>
