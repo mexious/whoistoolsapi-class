@@ -13,7 +13,7 @@ require_once &#039;whoistools.class.php&#039;;
 $whois = new WhoisTools(&#039;YOU_API_KEY_HERE&#039;);
 $results = $whois-&gt;WhoisAPI(&#039;google.com&#039;);
 ?&gt;
-
 </pre>
+Untuk Contoh yang lebih lengkap bisa anda lihat file di atas
 
 ?>
