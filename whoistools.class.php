@@ -47,6 +47,22 @@ class WhoisTools {
 			}
 		}
 
+		public function UserInfo($apiKey)
+		{
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $this->urlApi. 'user/' . $this->apiKey);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_VERBOSE, 1);
+			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+			$result = curl_exec($ch);
+			$array  = json_decode($result, true);
+			if ($array['success'] == true) {
+				return $array;
+			} else {
+				return "Error : " .$array['error']['message'];
+			}
+		}
+
 
 }
 ?>
