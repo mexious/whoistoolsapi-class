@@ -16,4 +16,10 @@ $results = $whois-&gt;WhoisAPI(&#039;google.com&#039;);
 </pre>
 Untuk Contoh yang lebih lengkap bisa anda lihat file di atas
 
+## Troubleshoot
+Jika anda mendapatkan problem dalam menjalankan library, hubungi whoistools@dev.mexious.com
+
+## License
+PHP Library ini menggunakan lisensi GNU General Public License v2 (or later)
+
 ?>
