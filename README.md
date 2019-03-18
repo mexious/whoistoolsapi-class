@@ -7,15 +7,7 @@ Jika belum mempunyai akun, bisa daftar di https://whoistools.web.id/dashboard/re
 
 ## How To
 Anda dapat memanggil file <code>whoistools.class.php</code> pada code anda, dan lakukan pemanggilan perintah dengan cara :
-<pre>
-&lt;?php
-require_once &#039;whoistools.class.php&#039;;
-
-/*** Loading Class ***/
-$whois = new WhoisTools(&#039;YOU_API_KEY_HERE&#039;);
-$results = $whois-&gt;WhoisAPI(&#039;google.com&#039;);
-?&gt;
-</pre>
+![Example Code](example_code.png)
 Untuk Contoh yang lebih lengkap bisa anda lihat file di atas, atau kunjungi https://whoistools.web.id/docs/
 
 ## Troubleshoot
