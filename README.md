@@ -7,7 +7,7 @@ Jika belum mempunyai akun, bisa daftar di https://whoistools.web.id/dashboard/re
 
 ## How To
 Anda dapat memanggil file <code>whoistools.class.php</code> pada code anda, dan lakukan pemanggilan perintah dengan cara :
-<img src="example_code.png" width="250">
+![](example_code.png)
 Untuk Contoh yang lebih lengkap bisa anda lihat file di atas, atau kunjungi https://whoistools.web.id/docs/
 
 ## Troubleshoot
